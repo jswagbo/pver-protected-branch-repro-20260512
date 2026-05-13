@@ -1,0 +1,16 @@
+{
+  "name": "pver-protected-branch-repro-20260512",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "pver release --package-json --push-main --git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "pver": "file:./pver-0.0.42.tgz"
+  }
+}
